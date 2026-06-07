@@ -2,7 +2,8 @@
 
 Statische Promo-Seite für die FryBuddy iOS-App.
 
-**Live:** https://lukasj98.github.io/frybuddy/
+**Live:** https://lukasj98.github.io/frybuddy/  
+**App Store:** https://apps.apple.com/de/app/frybuddy/id6777445811
 
 ## Lokal ansehen
 
