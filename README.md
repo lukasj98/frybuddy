@@ -2,12 +2,12 @@
 
 Statische Promo-Seite für die FryBuddy iOS-App.
 
-**Live:** https://lukasj98.github.io/frybuddy-website/
+**Live:** https://lukasj98.github.io/frybuddy/
 
 ## Lokal ansehen
 
 ```bash
-cd ~/Desktop/FryBuddyWebsite
+cd ~/Desktop/frybuddy
 python3 -m http.server 8080
 ```
 
