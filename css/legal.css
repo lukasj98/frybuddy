@@ -1,0 +1,104 @@
+.legal-page {
+  padding: 2.5rem 0 3.5rem;
+}
+
+.legal-card {
+  max-width: 760px;
+  padding: 2rem 1.75rem;
+  border-radius: calc(var(--radius) + 4px);
+  background: rgba(255, 255, 255, 0.96);
+  color: var(--text);
+  box-shadow: var(--shadow);
+  border: 1px solid rgba(255, 255, 255, 0.55);
+}
+
+.legal-card h1 {
+  margin: 0 0 0.5rem;
+  font-size: clamp(1.85rem, 4vw, 2.5rem);
+  letter-spacing: -0.03em;
+  color: var(--text);
+}
+
+.legal-meta {
+  margin: 0 0 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(26, 18, 14, 0.1);
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.legal-card section {
+  margin-bottom: 1.75rem;
+}
+
+.legal-card h2 {
+  margin: 0 0 0.65rem;
+  font-size: 1.2rem;
+  color: var(--orange-deep);
+}
+
+.legal-card h3 {
+  margin: 1.15rem 0 0.45rem;
+  font-size: 1rem;
+  color: var(--text);
+}
+
+.legal-card p,
+.legal-card li {
+  color: var(--text-muted);
+  font-size: 0.98rem;
+}
+
+.legal-card ul {
+  margin: 0.5rem 0 0;
+  padding-left: 1.25rem;
+}
+
+.legal-card li + li {
+  margin-top: 0.35rem;
+}
+
+.legal-card a {
+  color: var(--orange-deep);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.legal-card a:hover {
+  color: var(--red);
+}
+
+.legal-card code {
+  font-size: 0.88em;
+  padding: 0.1em 0.35em;
+  border-radius: 6px;
+  background: rgba(232, 106, 42, 0.1);
+  color: var(--orange-deep);
+}
+
+.eyebrow--dark {
+  background: rgba(232, 106, 42, 0.12);
+  color: var(--orange-deep);
+}
+
+.legal-back {
+  margin: 2rem 0 0;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(26, 18, 14, 0.1);
+}
+
+.legal-back .btn--primary {
+  display: inline-flex;
+}
+
+.nav__links a[aria-current="page"] {
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+@media (max-width: 720px) {
+  .legal-card {
+    padding: 1.5rem 1.15rem;
+  }
+}

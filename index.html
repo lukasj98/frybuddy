@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FryBuddy – Backofen-Rezepte in Airfryer-Werte umrechnen. Mit Widget, Apple Watch und smarter Garzeit-Anpassung.">
+  <meta name="theme-color" content="#e86a2a">
+  <title>FryBuddy – Backofen trifft Airfryer</title>
+  <link rel="icon" href="assets/app-icon.jpg" type="image/jpeg">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="bg-glow bg-glow--left" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow--right" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#top">
+        <img src="assets/app-icon.jpg" alt="" width="36" height="36" class="brand__icon">
+        <span>FryBuddy</span>
+      </a>
+      <div class="nav__links">
+        <a href="#screenshots">Screenshots</a>
+        <a href="#features">Features</a>
+        <a href="#how-it-works">So geht's</a>
+        <a href="#download" class="nav__cta">App laden</a>
+      </div>
+      <button class="nav__toggle" type="button" aria-label="Menü öffnen" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero container">
+      <div class="hero__content reveal">
+        <p class="eyebrow">Für iPhone, iPad & Apple Watch</p>
+        <h1>Backofen-Rezepte.<br>Perfekt für den Airfryer.</h1>
+        <p class="hero__lead">
+          FryBuddy rechnet Temperatur und Garzeit vom Backofen auf deinen Airfryer um –
+          direkt auf dem Home Screen, in der App und auf der Watch.
+        </p>
+        <div class="hero__actions">
+          <a href="#download" class="btn btn--primary">Kostenlos laden</a>
+          <a href="#how-it-works" class="btn btn--ghost">Mehr erfahren</a>
+        </div>
+        <ul class="hero__badges">
+          <li>Widget</li>
+          <li>Watch Sync</li>
+          <li>Kein Konto nötig</li>
+        </ul>
+      </div>
+
+      <div class="hero__visual reveal reveal--delay">
+        <img
+          src="assets/screenshots/01-intro.png"
+          alt="FryBuddy App – Dein Airfryer-Buddy: Umrechner mit Ergebnis 180 °C und 16 Min"
+          class="hero__screenshot"
+          width="640"
+          height="1380"
+          fetchpriority="high"
+        >
+      </div>
+    </section>
+
+    <section id="screenshots" class="section section--screenshots">
+      <div class="container">
+        <div class="section__intro reveal">
+          <p class="eyebrow">App Store Design</p>
+          <h2>FryBuddy in Aktion</h2>
+          <p class="section__lead">Die offiziellen App-Store-Screenshots – vom Umrechner über Timer bis zur Apple Watch.</p>
+        </div>
+
+        <div class="screenshot-carousel reveal">
+          <button class="carousel-btn carousel-btn--prev" type="button" aria-label="Vorheriger Screenshot">‹</button>
+          <div class="screenshot-track" id="screenshot-track" tabindex="0">
+            <figure class="screenshot-slide">
+              <img src="assets/screenshots/01-intro.png" alt="Dein Airfryer-Buddy – FryBuddy rechnet für dich um" loading="lazy">
+            </figure>
+            <figure class="screenshot-slide">
+              <img src="assets/screenshots/02-ofen-airfryer.png" alt="Vom Ofen zum Airfryer – Rezeptwerte eingeben und umrechnen" loading="lazy">
+            </figure>
+            <figure class="screenshot-slide">
+              <img src="assets/screenshots/03-timer.png" alt="Halbzeit? FryBuddy erinnert dich – Timer mit Live Activity" loading="lazy">
+            </figure>
+            <figure class="screenshot-slide">
+              <img src="assets/screenshots/04-airfryer-backofen.png" alt="Airfryer-Werte zurück in Backofen-Einstellungen umrechnen" loading="lazy">
+            </figure>
+            <figure class="screenshot-slide">
+              <img src="assets/screenshots/05-umrechner.png" alt="Umrechner mit Temperatur, Zeit und Einstellungen" loading="lazy">
+            </figure>
+            <figure class="screenshot-slide">
+              <img src="assets/screenshots/06-watch.png" alt="Auch an der Watch dabei – sync mit dem iPhone" loading="lazy">
+            </figure>
+            <figure class="screenshot-slide">
+              <img src="assets/screenshots/07-watch-einstellungen.png" alt="Umrechnen am Handgelenk – Hitze, Füllstand und Korb" loading="lazy">
+            </figure>
+          </div>
+          <button class="carousel-btn carousel-btn--next" type="button" aria-label="Nächster Screenshot">›</button>
+        </div>
+
+        <div class="carousel-dots" id="carousel-dots" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <section id="features" class="section container">
+      <div class="section__intro reveal">
+        <p class="eyebrow">Alles drin</p>
+        <h2>Dein Airfryer-Umrechner – überall griffbereit</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card glass reveal">
+          <div class="feature-card__icon">↔</div>
+          <h3>Backofen ↔ Airfryer</h3>
+          <p>Wähle die Eingabe – FryBuddy berechnet das Ziel sofort, in beide Richtungen.</p>
+        </article>
+        <article class="feature-card glass reveal reveal--delay">
+          <div class="feature-card__icon">🔥</div>
+          <h3>Zwei Hitzearten</h3>
+          <p>Umluft (−20 °C) oder Ober-/Unterhitze (−40 °C) – passend zu deinem Rezept.</p>
+        </article>
+        <article class="feature-card glass reveal reveal--delay-2">
+          <div class="feature-card__icon">⏱</div>
+          <h3>Smarte Garzeit</h3>
+          <p>Füllstand und Korbgröße fließen ein – du musst nichts selbst umrechnen.</p>
+        </article>
+        <article class="feature-card glass reveal">
+          <div class="feature-card__icon">📱</div>
+          <h3>Widget</h3>
+          <p>Der volle Umrechner auf dem Home Screen – Temperatur, Zeit und Modus direkt einstellbar.</p>
+        </article>
+        <article class="feature-card glass reveal reveal--delay">
+          <div class="feature-card__icon">⌚</div>
+          <h3>Apple Watch</h3>
+          <p>Werte per Stepper einstellen – Watch Connectivity hält iPhone und Widget synchron.</p>
+        </article>
+        <article class="feature-card glass reveal reveal--delay-2">
+          <div class="feature-card__icon">✨</div>
+          <h3>Modernes Design</h3>
+          <p>Klares Liquid-Glass-UI, Onboarding beim ersten Start und Dark Mode out of the box.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="how-it-works" class="section section--alt">
+      <div class="container">
+        <div class="section__intro reveal">
+          <p class="eyebrow">So funktioniert's</p>
+          <h2>Vom Ofen-Rezept zur Airfryer-Einstellung</h2>
+        </div>
+
+        <div class="steps">
+          <div class="step glass reveal">
+            <span class="step__num">1</span>
+            <h3>Rezept eingeben</h3>
+            <p>Backofen-Temperatur, Garzeit und Hitzeart aus deinem Rezept wählen.</p>
+          </div>
+          <div class="step glass reveal reveal--delay">
+            <span class="step__num">2</span>
+            <h3>Korb anpassen</h3>
+            <p>Füllstand (wenig/mittel/viel) und Korbgröße (3 L / 5 L / 10 L) einstellen.</p>
+          </div>
+          <div class="step glass reveal reveal--delay-2">
+            <span class="step__num">3</span>
+            <h3>Loslegen</h3>
+            <p>Airfryer-Werte ablesen – in der App, im Widget oder auf der Watch.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="download" class="section container">
+      <div class="download-card glass reveal">
+        <div class="download-card__content">
+          <img src="assets/app-icon.jpg" alt="FryBuddy App Icon" width="88" height="88" class="download-card__icon">
+          <div>
+            <p class="eyebrow">Jetzt starten</p>
+            <h2>FryBuddy kostenlos laden</h2>
+            <p>
+              Installiere die App, füge optional das Widget hinzu und sync deine Werte mit der Apple Watch.
+              iOS 17+, iPadOS 17+ und watchOS 10+.
+            </p>
+          </div>
+        </div>
+        <ul class="download-card__checklist">
+          <li>Widget: Home Screen → Widget hinzufügen → „FryBuddy“</li>
+          <li>Größe „Groß“ für den vollen Umrechner</li>
+          <li>Watch-App wird mit der iPhone-App mitinstalliert</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <img src="assets/app-icon.jpg" alt="" width="32" height="32">
+        <span>FryBuddy</span>
+      </div>
+      <nav class="footer__links">
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutz</a>
+        <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener noreferrer">Nutzungsbedingungen</a>
+      </nav>
+      <p class="footer__copy">© 2026 FryBuddy · Made with 🧡 for Airfryer-Fans</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
