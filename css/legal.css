@@ -2,6 +2,11 @@
   padding: 2.5rem 0 3.5rem;
 }
 
+.legal-page .reveal {
+  opacity: 1;
+  transform: none;
+}
+
 .legal-card {
   max-width: 760px;
   padding: 2rem 1.75rem;
